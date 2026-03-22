@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello! Welcome to our dental clinic 😊 How can I assist you today?"]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "book appointment",
+        "schedule visit",
+        "i want to see a dentist",
+        "appointment booking",
+        "can i come today"
+      ],
+      "responses": [
+        "Sure! I can help you book an appointment. Please tell me your preferred date and time.",
+        "We’d be happy to schedule your visit. What time works best for you?"
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "clinic timings",
+        "opening hours",
+        "when are you open",
+        "working hours"
+      ],
+      "responses": [
+        "Our clinic is open from 9 AM to 8 PM, Monday to Saturday.",
+        "We are open 9 AM–8 PM. Closed on Sundays."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "cost of cleaning",
+        "price of root canal",
+        "how much is treatment",
+        "charges",
+        "fees"
+      ],
+      "responses": [
+        "Pricing depends on the treatment. Basic consultation starts at ₹500. Would you like details for a specific procedure?",
+        "Costs vary by treatment. Please tell me which procedure you’re interested in."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where are you located",
+        "clinic address",
+        "location",
+        "how to reach"
+      ],
+      "responses": [
+        "We are located in Angondhalli, Karnataka. I can share directions if needed.",
+        "Our clinic is in Angondhalli. Would you like a map link?"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "what treatments do you offer",
+        "services",
+        "do you do braces",
+        "teeth whitening",
+        "implants"
+      ],
+      "responses": [
+        "We offer cleaning, fillings, root canal, braces, implants, whitening, and more.",
+        "Our services include general and cosmetic dentistry treatments."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "tooth pain",
+        "emergency",
+        "bleeding gums",
+        "urgent dental issue"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please visit the clinic immediately or let me book an urgent appointment for you.",
+        "For emergencies, we recommend visiting as soon as possible. Shall I book you a priority slot?"
+      ]
+    },
+    {
+      "tag": "closing",
+      "patterns": ["bye", "thank you", "thanks", "see you"],
+      "responses": [
+        "You're welcome! Take care 😊",
+        "Thank you for contacting us. Have a great day!"
+      ]
+    }
+  ]
+}
